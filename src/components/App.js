@@ -6,7 +6,7 @@ const SumCalculator = () => {
 
   useEffect(() => {
     // Calculate the sum whenever the array of numbers changes
-    const calculateSum = async () => {
+    const calculateSum =  () => {
       let total = 0;
       for (let number of numbers) {
         total += number;
